@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive resume</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#home" class="nav_logo">Akshata</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+
+                            <i class='bx bx-home nav_icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#profile " class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>Profile
+
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bx-book nav_icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bx-briefcase-alt nav_icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#languages" class="nav_link">
+                            <i class='bx bx-user-voice'></i>Languages
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#languages" class="nav_link">
+                            <i class='bx bx-user-voice'></i>Certificate
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#interests" class="nav_link">
+                            <i class='bx bxs-florist'></i></i>Interests
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="img/img.jpg" alt="" class="home_img">
+
+                            <h1 class="home_title">Akshata Kadam</h1>
+                            <h3 class="home_profession">Web Developer</h3>
+                            <!-- Button to download CV saved  in the pdf folder. available for mobile.  -->
+                            <div>
+                                <a download="" href="html2pdf.bundle.min.js" class="home_button-movil">Download</a>
+                            </div>
+                        </div>
+                        <div class="home_adress bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i>A/303, Kasturi Vandana Complex, Bhayander,
+                                Maharashtra-401105
+                            </span>
+
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon'></i>kadam.akshata64@gmail.com
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon'></i>+91 7666924395
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social_container bd-grid">
+                        <a href="https://github.com/Akshatakdm" target="_blank" class="social_link">
+                            <i class='bx bxl-github social_icon'></i>@akshatakdm
+                        </a>
+                        <a href="https://www.linkedin.com/in/akshata-kadam-68bba3138/" target="_blank"
+                            class="social_link">
+                            <i class='bx bxl-linkedin social_icon'></i>@akshatak
+                        </a>
+                        <a href="https://www.facebook.com/akshatadotkadam/" target="_blank" class="social_link">
+                            <i class='bx bxl-facebook social_icon'></i>@akshatak
+                        </a>
+                        <a href="https://www.instagram.com/kadamakshata/" target="_blank" class="social_link">
+                            <i class='bx bxl-instagram social_icon'></i>@akshatak
+                        </a>
+                    </div>
+                </section>
+
+
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Bachelor of Commerce</h3>
+                                <span class="education_studies">University of Mumbai</span>
+                                <span class="education_year">2014-2015</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Higher Secondary School Certificate</h3>
+                                <span class="education_studies">University of Mumbai</span>
+                                <span class="education_year">2009-2010</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!-- <span class="education_line"></span> -->
+                            </div>
+
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Secondary School Certificate</h3>
+                                <span class="education_studies">University of Mumbai</span>
+                                <span class="education_year">2007-2008</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills_content">
+                        <ul class="skills_data  bd-grid">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Html
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Css
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>JavaScript
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Bootstrap
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>JQuery
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>PHP
+                            </li>
+                        </ul>
+
+                        <!-- <ul class="skills_data">
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Html
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Css
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>JavaScript
+                        </li>
+                        <li class="skills_name">
+                            <span class="skills_circle"></span>Bootstrap
+                        </li>
+                    </ul> -->
+                    </div>
+                </section>
+            </div>
+
+
+
+            <div class="resume_right">
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile_description">Junior web Developer is one who is responsible for building and
+                        developing websites and web applications using best software practices</p>
+
+                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+
+                    <h2 class="section-title">EXPERIENCE</h2>
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title" a href="https://www.3mindsdigital.com/" target="_blank"
+                                    class="social_link">3 Minds Digital</h3>
+                                <p class="experience_title" a href="https://www.3mindsdigital.com/" target="_blank"
+                                    class="social_link" style="color:whitesmoke"><span clss="intership"> Full Time
+                                        (November 2021 - Till Date)</span>
+                                <p clss="intership" style="margin-bottom: 1rem; color:whitesmoke"> Internship (September
+                                    2021 - November 2021)</p>
+                                </p>
+
+
+
+                                <!-- <p class="experience brief"> Responsible for developing websites.
+                                    </p> -->
+                                <!-- The main feature of this website are: -->
+
+                                <span class="description" style="margin-top: 1rem;">- Understanding of requirements, system design and flow.</span>
+                                <span>- Develop a front-end as per design with maximum accuracy.</span>
+                                <span>- Research and development of functionalities/features with suitable approaches
+                                    and methods.</span>
+                                <span>- Create website layout/user interface by using standard practices. </span>
+                                <span>- Communicating with the Client to understand the requirements better. </span>
+                                <span>- Communicating with the UI team over the Design and QC feedbacks.</span>
+                                <span>- Search and Page Speed optimization taken up inorder to improve the entire
+                                    performance of the Website.</span>
+                                <span>- To deliver quality work and before the deadline. </span>
+                                <span>- Checking and testing everything, before sending to the client.</span>
+                                <span>- Writing emails professionally to record all discussions with the client.</span>
+                                <span>- Coordinate with the team to implement a more efficient and scalable approach
+                                    according to the tasks taken. </span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title" a href="https://in.linkedin.com/" target="_blank"
+                                    class="social_link">Nature Vally</h3>
+
+                                <p class="experience brief">A complete responsive Nature Vally web page design using
+                                    Bootstrap 4. </p>
+
+                                Bootstrap is a powerful front-end framework for faster and easier web development.
+                                It includes HTML and CSS based design templates for creating common user interface
+                                components like forms, buttons, navigations, dropdowns, modals, tabs, cards, carousels,
+                                and responsive grid system.
+
+                                Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing
+                                responsive, mobile-first websites.
+
+
+                                </p>
+                            </div>
+                        </div>
+
+                         <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                 <span class="experience_line"></span>
+                            </div>
+
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title" a href="https://in.linkedin.com/" target="_blank"
+                                    class="social_link">Increment Counter</h3>
+
+                                <p class="experience brief"> A single web page design using
+                                    html css and vanilla javascript from scratch by using font-awesome cdn link.
+
+                                 </p>
+                            </div>
+                        </div>   -->
+                    </div>
+
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <!-- <section class="certificate section" id="certificates">
+
+                </section> -->
+
+                <!--========== REFERENCES ==========-->
+                <!-- <section class="references section" id="references">
+
+                </section> -->
+
+                <!--========== Certificate ==========-->
+                <section class="languages section" id="languages">
+                    <h2 class="section-title">Certificate</h2>
+
+                    <div class="languages_container">
+                        <ul class="bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> The Complete Web Development Bootcamp
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section" id="interests">
+                    <h2 class="section-title">Interests</h2>
+                    <div class="interests_container bd-grid">
+                        <div class="ineterests_content">
+                            <i class='bx bx-code'></i>
+                            <span class="interests_name">Programming</span>
+                        </div>
+
+                        <div class="ineterests_content">
+                            <i class='bx bx-male-female'></i>
+                            <span class="interests_name">Socialising</span>
+                        </div>
+
+                        <div class="ineterests_content">
+                            <i class='bx bx-podcast'></i>
+                            <span class="interests_name">Podcast</span>
+                        </div>
+
+                        <div class="ineterests_content">
+                            <i class='bx bxs-plane-alt'></i>
+                            <span class="interests_name">Travel</span>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!--========== Achievement ==========-->
+                <section class="languages section" id="languages">
+                    <h2 class="section-title">Achievement</h2>
+
+                    <div class="languages_container">
+                        <ul class="bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> Awarded for Rising Star of the March 2022 for  powerpack performance.
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages_container">
+                        <ul class="languages_content bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> English
+                            </li>
+
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> Hindi
+                            </li>
+
+                            <li class="languages_name">
+                                <span class="languages_circle"></span> Marathi
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+
+
+
+
+            </div>
+
+        </div>
+        <!-- <footer class="last">made with &#9825; JavaScript</footer> -->
+    </main>
+
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
