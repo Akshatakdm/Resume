@@ -8,7 +8,9 @@ skills sections|
 
 Right section:
 Profile description|
-Demo projects section|
+Experience section|
+Achievement|
+Certificate|
 Languages|
 Interests
 # Resume
